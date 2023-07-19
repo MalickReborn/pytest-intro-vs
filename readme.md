@@ -4,7 +4,8 @@ Our plan was to use a docker container as our host for the jenkins server
 
 these are the following steps of our test 
 - build the container with a jenkins docker image hosted on dockerhub as:
-docker run -p 8081:8080 -p 50000:50000 jenkins/jenkins
+
+** docker run -p 8081:8080 -p 50000:50000 jenkins/jenkins **
 [![Screenshot-from-2023-07-19-09-12-39.png](https://i.postimg.cc/Dy0VwcRj/Screenshot-from-2023-07-19-09-12-39.png)](https://postimg.cc/fkGqHYzm)
 (We opted for localhost port 8081 rather than 8080 for convenience as we have our own localhost jenkins set up ont this sport.)
 - use the password given following installation to made the different steps of accessing , signing up, and adding plugins to the jenkins workspace
