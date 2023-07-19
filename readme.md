@@ -12,8 +12,8 @@ these are the following steps of our test
 - use the password given following installation to made the different steps of accessing , signing up, and adding plugins to the jenkins workspace
 [![Screenshot-from-2023-07-19-09-12-43.png](https://i.postimg.cc/sD7LX0wJ/Screenshot-from-2023-07-19-09-12-43.png)](https://postimg.cc/Whp8YSRD)
 - enter in the container as a roo user and install python3 and other modules (pip , pytest...)
-  docker exec -it -u 0 -cntainerid- bash
-- configure yur jenkins pipline
+  `docker exec -it -u 0 -cntainerid- bash`
+- configure yur jenkins pipeline
           - chose a name for the pipeline
           -  a description, chose the project as a github project add the github repo address.
           -  pick scm as the way and pick up the jenkinsfile as reference since it's the common practice and we can avoid some steps as checkout ang gitbranch.
